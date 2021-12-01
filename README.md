@@ -1,20 +1,28 @@
-# Vampyric [X](http://link-to-x.com)
+# Vampyric [dmenu](https://tools.suckless.org/dmenu)
 
-> A dark theme for [X](http://link-to-x.com).
+> A dark theme for [dmenu](https://tools.suckless.org/dmenu).
 
 ![Screenshot](./screenshot.png)
 
 ## Install
 
-Insert your instructions on how to get your theme up and running here.
+1. Download the `dmenu-vd.patch` patch.
+2. Apply the patch as follows to install the theme:
+
+```sh
+$ mv dmenu-vd.patch dmenu/
+$ cd dmenu/
+$ patch -p1 < dmenu-vd.patch
+# make clean install
+```
 
 ## Team
 
 This theme maintained by:
 
-[![RaphGL](https://github.com/RaphGL.png?size=100)](https://github.com/RaphGL) |
+[![WitherCubes](https://github.com/WitherCubes.png?size=100)](https://github.com/WitherCubes) |
 --- |
-[RaphGL](https://github.com/RaphGL) |
+[WitherCubes](https://github.com/WitherCubes) |
 
 ## License
 
